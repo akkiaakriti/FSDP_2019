@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jun 11 10:50:31 2019
+
+@author: Aakriti
+"""
+
+import json
+
+faculty_profile="""
+{
+"faculties":[
+{
+    "first_name":"Nitin",
+    "last_name":"rajput",
+    "photo":"file:///C:/Users/Aakriti/Downloads/darshanraval.png",
+    "department":"cs",
+    "research_areas":["sitapura","jagatpura"],
+    "contact_details":
+    {
+        "phone_number":[8279721307,8791661947],
+        "email_id":["akki@gmail.com","appu@gmail.com"]
+    }
+},
+{
+    "first_name":"aakriti",
+    "last_name":"yadav",
+    "photo":"file:///C:/Users/Aakriti/Downloads/darshanraval.png",
+    "department":"cs",
+    "research_areas":["sitapura","jagatpura"],
+    "contact_details":
+    {
+        "phone_number":[8279721307,8791661947],
+        "email_id":["akki@gmail.com","appu@gmail.com"]
+    }
+}
+]}
+"""
